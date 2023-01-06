@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont-1 .btn{
+    color: gainsboro;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+.content-1{
+    background-color: black;
+    opacity:0.6;
+
+}
+.carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+@media  (max-width:576px) {
+    .section-3 img {
+     width: 100%;
+    }
+    .content-1 h1{
+        font-size:12px;
+    }
+    .content-1 h6{
+        font-size:10px;
+    }
+    .carousel-caption button{
+        font-size: 8px;
+    }
+    .course .card{
+        margin-left: 25px;
+    }
+    
+}
